@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4107E4481EE3D33B00106AB5 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4107E4471EE3D33B00106AB5 /* cross@2x.png */; };
+		4140AE8B1EE3BF060094C1FD /* NaviHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140AE8A1EE3BF060094C1FD /* NaviHomeViewController.swift */; };
+		4140AE8D1EE3BF1B0094C1FD /* NaviUniversityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140AE8C1EE3BF1B0094C1FD /* NaviUniversityViewController.swift */; };
+		4140AE8F1EE3BF2B0094C1FD /* NaviForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140AE8E1EE3BF2B0094C1FD /* NaviForumViewController.swift */; };
+		4140AE911EE3BF430094C1FD /* NaviQuestionBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140AE901EE3BF430094C1FD /* NaviQuestionBankViewController.swift */; };
+		4140AE931EE3BF530094C1FD /* NaviMyOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140AE921EE3BF530094C1FD /* NaviMyOptionViewController.swift */; };
+		41B536D41EE3AB5700ACCDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B536D31EE3AB5700ACCDA9 /* AppDelegate.swift */; };
+		41B536D61EE3AB5700ACCDA9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B536D51EE3AB5700ACCDA9 /* MainViewController.swift */; };
+		41B536DB1EE3AB5700ACCDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B536DA1EE3AB5700ACCDA9 /* Assets.xcassets */; };
+		41B536DE1EE3AB5700ACCDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B536DC1EE3AB5700ACCDA9 /* LaunchScreen.storyboard */; };
+		6B0078520CB09D13BF011E7A /* Pods_kygj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3A1F6A579775D85B8FAA4D /* Pods_kygj.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4107E4471EE3D33B00106AB5 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		4140AE8A1EE3BF060094C1FD /* NaviHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviHomeViewController.swift; sourceTree = "<group>"; };
+		4140AE8C1EE3BF1B0094C1FD /* NaviUniversityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviUniversityViewController.swift; sourceTree = "<group>"; };
+		4140AE8E1EE3BF2B0094C1FD /* NaviForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviForumViewController.swift; sourceTree = "<group>"; };
+		4140AE901EE3BF430094C1FD /* NaviQuestionBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviQuestionBankViewController.swift; sourceTree = "<group>"; };
+		4140AE921EE3BF530094C1FD /* NaviMyOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviMyOptionViewController.swift; sourceTree = "<group>"; };
+		41B536D01EE3AB5700ACCDA9 /* kygj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kygj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B536D31EE3AB5700ACCDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41B536D51EE3AB5700ACCDA9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		41B536DA1EE3AB5700ACCDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41B536DD1EE3AB5700ACCDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41B536DF1EE3AB5700ACCDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480C525303E17F9F86A32D66 /* Pods-kygj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kygj.release.xcconfig"; path = "Pods/Target Support Files/Pods-kygj/Pods-kygj.release.xcconfig"; sourceTree = "<group>"; };
+		DB3A1F6A579775D85B8FAA4D /* Pods_kygj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kygj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54EAA6122C40B5F8772FE76 /* Pods-kygj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kygj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kygj/Pods-kygj.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41B536CD1EE3AB5700ACCDA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0078520CB09D13BF011E7A /* Pods_kygj.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1338AB4F88CE5FC3B3B30AD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB3A1F6A579775D85B8FAA4D /* Pods_kygj.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B94C0EEFD3FED3BD5E86E0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E54EAA6122C40B5F8772FE76 /* Pods-kygj.debug.xcconfig */,
+				480C525303E17F9F86A32D66 /* Pods-kygj.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4140AE7E1EE3BD4D0094C1FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4140AE891EE3BEAF0094C1FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4140AE8A1EE3BF060094C1FD /* NaviHomeViewController.swift */,
+				4140AE8C1EE3BF1B0094C1FD /* NaviUniversityViewController.swift */,
+				4140AE8E1EE3BF2B0094C1FD /* NaviForumViewController.swift */,
+				4140AE901EE3BF430094C1FD /* NaviQuestionBankViewController.swift */,
+				4140AE921EE3BF530094C1FD /* NaviMyOptionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		41B536C71EE3AB5700ACCDA9 = {
+			isa = PBXGroup;
+			children = (
+				41B536D21EE3AB5700ACCDA9 /* kygj */,
+				41B536D11EE3AB5700ACCDA9 /* Products */,
+				3B94C0EEFD3FED3BD5E86E0A /* Pods */,
+				1338AB4F88CE5FC3B3B30AD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41B536D11EE3AB5700ACCDA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B536D01EE3AB5700ACCDA9 /* kygj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41B536D21EE3AB5700ACCDA9 /* kygj */ = {
+			isa = PBXGroup;
+			children = (
+				4140AE891EE3BEAF0094C1FD /* Controllers */,
+				4140AE7E1EE3BD4D0094C1FD /* Views */,
+				41B536E61EE3B17B00ACCDA9 /* Icon */,
+				41B536D31EE3AB5700ACCDA9 /* AppDelegate.swift */,
+				41B536D51EE3AB5700ACCDA9 /* MainViewController.swift */,
+				41B536DA1EE3AB5700ACCDA9 /* Assets.xcassets */,
+				41B536DC1EE3AB5700ACCDA9 /* LaunchScreen.storyboard */,
+				41B536DF1EE3AB5700ACCDA9 /* Info.plist */,
+			);
+			path = kygj;
+			sourceTree = "<group>";
+		};
+		41B536E61EE3B17B00ACCDA9 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				4107E4471EE3D33B00106AB5 /* cross@2x.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41B536CF1EE3AB5700ACCDA9 /* kygj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B536E21EE3AB5700ACCDA9 /* Build configuration list for PBXNativeTarget "kygj" */;
+			buildPhases = (
+				89972388B240F067B39E041B /* [CP] Check Pods Manifest.lock */,
+				41B536CC1EE3AB5700ACCDA9 /* Sources */,
+				41B536CD1EE3AB5700ACCDA9 /* Frameworks */,
+				41B536CE1EE3AB5700ACCDA9 /* Resources */,
+				E84D3CA622DDF98592AD1890 /* [CP] Embed Pods Frameworks */,
+				8A822149BC3EF020B77A4528 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kygj;
+			productName = kygj;
+			productReference = 41B536D01EE3AB5700ACCDA9 /* kygj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41B536C81EE3AB5700ACCDA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SmartWall;
+				TargetAttributes = {
+					41B536CF1EE3AB5700ACCDA9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C86H234989;
+					};
+				};
+			};
+			buildConfigurationList = 41B536CB1EE3AB5700ACCDA9 /* Build configuration list for PBXProject "kygj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41B536C71EE3AB5700ACCDA9;
+			productRefGroup = 41B536D11EE3AB5700ACCDA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41B536CF1EE3AB5700ACCDA9 /* kygj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41B536CE1EE3AB5700ACCDA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B536DE1EE3AB5700ACCDA9 /* LaunchScreen.storyboard in Resources */,
+				41B536DB1EE3AB5700ACCDA9 /* Assets.xcassets in Resources */,
+				4107E4481EE3D33B00106AB5 /* cross@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89972388B240F067B39E041B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A822149BC3EF020B77A4528 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kygj/Pods-kygj-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84D3CA622DDF98592AD1890 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kygj/Pods-kygj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41B536CC1EE3AB5700ACCDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4140AE8D1EE3BF1B0094C1FD /* NaviUniversityViewController.swift in Sources */,
+				4140AE8B1EE3BF060094C1FD /* NaviHomeViewController.swift in Sources */,
+				41B536D61EE3AB5700ACCDA9 /* MainViewController.swift in Sources */,
+				41B536D41EE3AB5700ACCDA9 /* AppDelegate.swift in Sources */,
+				4140AE911EE3BF430094C1FD /* NaviQuestionBankViewController.swift in Sources */,
+				4140AE931EE3BF530094C1FD /* NaviMyOptionViewController.swift in Sources */,
+				4140AE8F1EE3BF2B0094C1FD /* NaviForumViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41B536DC1EE3AB5700ACCDA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B536DD1EE3AB5700ACCDA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41B536E01EE3AB5700ACCDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41B536E11EE3AB5700ACCDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41B536E31EE3AB5700ACCDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54EAA6122C40B5F8772FE76 /* Pods-kygj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = kygj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = link.smartwall.kygj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		41B536E41EE3AB5700ACCDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480C525303E17F9F86A32D66 /* Pods-kygj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = kygj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = link.smartwall.kygj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41B536CB1EE3AB5700ACCDA9 /* Build configuration list for PBXProject "kygj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B536E01EE3AB5700ACCDA9 /* Debug */,
+				41B536E11EE3AB5700ACCDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41B536E21EE3AB5700ACCDA9 /* Build configuration list for PBXNativeTarget "kygj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B536E31EE3AB5700ACCDA9 /* Debug */,
+				41B536E41EE3AB5700ACCDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41B536C81EE3AB5700ACCDA9 /* Project object */;
+}
