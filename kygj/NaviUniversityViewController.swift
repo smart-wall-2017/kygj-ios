@@ -26,11 +26,11 @@ class NaviUniversityViewController: UIViewController {
         //设置js跳转
         config.preferences.javaScriptEnabled = true
         //不自动打开窗口
-        config.preferences.javaScriptCanOpenWindowsAutomatically = false
+        //config.preferences.javaScriptCanOpenWindowsAutomatically = true
         //web内容处理池
-        config.processPool = WKProcessPool()
+        //config.processPool = WKProcessPool()
         //js和webview内容交互
-        config.userContentController = WKUserContentController()
+        //config.userContentController = WKUserContentController()
         //注入js对象名称为appmodel，当js通过appmodel来调用
         //可以在wkscriptMessagehandler的代理中接收到
         //config.userContentController. .add(self, name: "AppModel")

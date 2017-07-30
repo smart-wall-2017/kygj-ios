@@ -1,0 +1,6 @@
+framework module Pods_kygj {
+  umbrella header "Pods-kygj-umbrella.h"
+
+  export *
+  module * { export * }
+}
