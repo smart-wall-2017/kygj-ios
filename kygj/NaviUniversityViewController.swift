@@ -15,7 +15,7 @@ class NaviUniversityViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor.whiteColor()
+        self.view.backgroundColor = UIColor.white
         webView.frame = view.frame
         
         let config = WKWebViewConfiguration()
@@ -38,10 +38,10 @@ class NaviUniversityViewController: UIViewController {
         //webView
         webView = WKWebView(frame: view.bounds, configuration: config)
         view.addSubview(webView)//
-        let myUrl = NSURL(string: "https://www.sohu.com")!
-        webView.loadRequest(NSURLRequest(URL: myUrl));
+        let myUrl = URL(string: "https://www.sohu.com")!
+        webView.load(URLRequest(url: myUrl));
 //        let url = Bundle.main.url(forResource: "JSCallOC", withExtension: "html")
-        //webView.loadRequest(NSURLRequest(url: "http://www.baidu.com"))
+        //webView.loadRequest(NSURLRequest(url: "https://www.baidu.com"))
         
     }
 

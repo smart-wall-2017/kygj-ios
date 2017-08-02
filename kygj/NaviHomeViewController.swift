@@ -14,7 +14,7 @@ class NaviHomeViewController: UIViewController {
         super.viewDidLoad()
 
         self.title = "Home"
-        self.view.backgroundColor = UIColor.yellowColor()
+        self.view.backgroundColor = UIColor.yellow
     }
 
     override func didReceiveMemoryWarning() {

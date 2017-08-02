@@ -15,7 +15,7 @@ class NaviQuestionBankViewController: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor.whiteColor()
+        self.view.backgroundColor = UIColor.white
         webView.frame = view.frame
         
         let config = WKWebViewConfiguration()
@@ -39,9 +39,9 @@ class NaviQuestionBankViewController: UIViewController, WKNavigationDelegate {
         webView = WKWebView(frame: view.bounds, configuration: config)
         webView.navigationDelegate = self
         view.addSubview(webView)//
-        let myUrl = NSURL(string: "http://121.43.96.235:8787/sfa/mobi/exam/question_bank.html")!
+        let myUrl = URL(string: "http://121.43.96.235:8787/sfa/mobi/exam/question_bank.html")!
         //let myUrl = NSURL(string: "https://www.sohu.com")!
-        webView.loadRequest(NSURLRequest(URL: myUrl));
+        webView.load(URLRequest(url: myUrl));
         //        let url = Bundle.main.url(forResource: "JSCallOC", withExtension: "html")
         //webView.loadRequest(NSURLRequest(url: "http://www.baidu.com"))
         print("loaded");
@@ -97,11 +97,11 @@ class NaviQuestionBankViewController: UIViewController, WKNavigationDelegate {
 //        print("webViewWebContentProcessDidTerminate")
 //    }
     
-    func webView(webView: WKWebView, didReceiveAuthenticationChallenge challenge: NSURLAuthenticationChallenge, completionHandler: (NSURLSessionAuthChallengeDisposition, NSURLCredential?) -> Void) {
+    func webView(_ webView: WKWebView, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) {
         print("decidePolicyForNavigationAction")
         
-        let cred = NSURLCredential.init(trust: challenge.protectionSpace.serverTrust!)
-        completionHandler(.UseCredential, cred)
+        let cred = URLCredential.init(trust: challenge.protectionSpace.serverTrust!)
+        completionHandler(.useCredential, cred)
     }
     /*
     // MARK: - Navigation

@@ -14,7 +14,7 @@ class NaviForumViewController: UIViewController {
         super.viewDidLoad()
 
         self.title = "Home"
-        self.view.backgroundColor = UIColor.brownColor()
+        self.view.backgroundColor = UIColor.brown
     }
 
     override func didReceiveMemoryWarning() {

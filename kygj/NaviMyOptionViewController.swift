@@ -14,7 +14,7 @@ class NaviMyOptionViewController: UIViewController {
         super.viewDidLoad()
 
         self.title = "Home"
-        self.view.backgroundColor = UIColor.greenColor()
+        self.view.backgroundColor = UIColor.green
     }
 
     override func didReceiveMemoryWarning() {
