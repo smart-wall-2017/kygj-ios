@@ -10,13 +10,12 @@ import UIKit
 import WebKit
 
 class NaviQuestionBankViewController: UIViewController, WKNavigationDelegate {
-    var webView = WKWebView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.white
-        webView.frame = view.frame
+        //webView.frame = view.frame
         
         let config = WKWebViewConfiguration()
         //偏好设置
@@ -36,7 +35,7 @@ class NaviQuestionBankViewController: UIViewController, WKNavigationDelegate {
         //config.userContentController. .add(self, name: "AppModel")
         
         //webView
-        webView = WKWebView(frame: view.bounds, configuration: config)
+        let webView = WKWebView(frame: CGRect(x:0, y:20, width:self.view.bounds.size.width, height:self.view.bounds.size.height-69), configuration: config)
         webView.navigationDelegate = self
         view.addSubview(webView)//
         let myUrl = URL(string: "http://121.43.96.235:8787/sfa/mobi/exam/question_bank.html")!

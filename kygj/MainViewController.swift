@@ -23,23 +23,23 @@ class MainViewController: UITabBarController {
     
     func loadAllViewController(){
         let naviHomeViewController = NaviHomeViewController()
-        let naviHomeItem: UITabBarItem = UITabBarItem(title:"Home", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
+        let naviHomeItem: UITabBarItem = UITabBarItem(title:"首页", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
         naviHomeViewController.tabBarItem = naviHomeItem
         
         let naviUniversityViewController = NaviUniversityViewController()
-        let naviUniversityItem: UITabBarItem = UITabBarItem(title: "University", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
+        let naviUniversityItem: UITabBarItem = UITabBarItem(title: "院校", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
         naviUniversityViewController.tabBarItem = naviUniversityItem
         
         let naviForumViewController = NaviForumViewController()
-        let naviForumItem: UITabBarItem = UITabBarItem(title: "Forum", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
+        let naviForumItem: UITabBarItem = UITabBarItem(title: "论坛", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
         naviForumViewController.tabBarItem = naviForumItem
     
         let naviQuestionBankViewController = NaviQuestionBankViewController()
-        let naviQuestionBankItem = UITabBarItem(title: "Question", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
+        let naviQuestionBankItem = UITabBarItem(title: "题库", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
         naviQuestionBankViewController.tabBarItem = naviQuestionBankItem
     
         let naviMyOptionViewController = NaviMyOptionViewController()
-        let naviMyOptionItem = UITabBarItem(title: "MyOpt", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
+        let naviMyOptionItem = UITabBarItem(title: "我的", image: UIImage(named: "test"), selectedImage: UIImage(named: "test"))
         naviMyOptionViewController.tabBarItem = naviMyOptionItem
         
         
